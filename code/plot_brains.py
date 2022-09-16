@@ -142,7 +142,7 @@ def plot_surf_clusters(cluster_map,
 
     # Multiply cluster data with sulcal data
     # Makes the sulci and gyri "shine through" the clusters (like opacity)
-    sulc_data_mult = np.where(sulc_data > 0, 1.0, 1.3)
+    sulc_data_mult = np.where(sulc_data > 0, 1.0, 1.1)
     cluster_data_mulc = cluster_data_thresh * sulc_data_mult
 
     # Plot thresholded maps

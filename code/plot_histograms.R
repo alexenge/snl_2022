@@ -46,7 +46,9 @@ language_gm_age <- with( # Grand mean age
         legend.direction = "vertical",
         legend.position = c(0.14, 0.72),
         axis.text.x = element_text(vjust = 4.0),
-        axis.title.x = element_text(vjust = 2.0)
+        axis.title.x = element_text(vjust = 2.0),
+        panel.background = element_rect(color = NA, fill = "white"),
+        plot.background = element_rect(color = NA, fill = "white")
     ))
 
 # Save
@@ -96,7 +98,9 @@ semantics_gm_age <- with( # Grand mean age
         legend.direction = "vertical",
         legend.position = c(0.10, 0.79),
         axis.text.x = element_text(vjust = 4.0),
-        axis.title.x = element_text(vjust = 2.0)
+        axis.title.x = element_text(vjust = 2.0),
+        panel.background = element_rect(color = NA, fill = "white"),
+        plot.background = element_rect(color = NA, fill = "white")
     ))
 
 # Save
